@@ -1,0 +1,7 @@
+db.key_value_store.insertMany([
+  { _id: "user:1", value: { nama: "Indah", nim: "D0222321", jurusan: "Informatika", nilai: 96 } },
+  { _id: "user:2", value: { nama: "Citra", nim: "D0222212", jurusan: "Sistem Informasi", nilai: 85 } },
+  { _id: "user:3", value: { nama: "Idha", nim: "D0222222", jurusan: "Teknik Elektro", nilai: 90 } },
+  { _id: "user:4", value: { nama: "Rizky", nim: "D0222233", jurusan: "Manajemen", nilai: 88 } },
+  { _id: "user:5", value: { nama: "Dewi", nim: "D0222244", jurusan: "Akuntansi", nilai: 92 } }
+])

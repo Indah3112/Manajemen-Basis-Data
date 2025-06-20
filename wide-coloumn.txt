@@ -1,0 +1,43 @@
+db.wide-colum.insertMany([
+  {
+    nim: "D0222321",
+    nama: "Indah",
+    jurusan: "Informatika",
+    angkatan: 2022,
+    alamat: { jalan: "Jl. poros alu", kab: "Polman" },
+    kontak: { email: "indah@gmail.com", telepon: "08123456789" }
+  },
+  {
+    nim: "D0222212",
+    nama: "Citra",
+    jurusan: "Sistem Informasi",
+    angkatan: 2022,
+    hobi: ["membaca", "berenang"],
+    alamat: { jalan: "Jl. poros majene", kab: "Majene" }
+  },
+  {
+    nim: "D0222222",
+    nama: "Idha",
+    jurusan: "Teknik Elektro",
+    angkatan: 2022,
+    alamat: { jalan: "Jl. Pahlawan 20", kab: "Polman" },
+    prestasi: ["juara 1 lomba robotik", "beasiswa penuh"]
+  },
+  {
+    nim: "D0222233",
+    nama: "Rizky",
+    jurusan: "Manajemen",
+    angkatan: 2022,
+    alamat: { jalan: "Jl. Melati 15", kab: "Majene" },
+    kontak: { email: "rizky@example.com" }
+  },
+  {
+    nim: "D0222244",
+    nama: "Dewi",
+    jurusan: "Akutansi",
+    angkatan: 2022,
+    alamat: { jalan: "Jl. Kenanga 7", kab: "Mamasa" },
+    hobi: ["futsal", "memancing"],
+    prestasi: ["asisten dosen"]
+  }
+]);
